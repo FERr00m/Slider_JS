@@ -210,10 +210,10 @@ window.addEventListener('DOMContentLoaded', function() {
       }
       //Sliders
       const datesSlider = new SliderCarousel({
-        main: '#dates',
-        wrap: '#dates .slider-wrapper',
-        next: '.js-slider-btn-right.dates',
-        prev: '.js-slider-btn-left.dates',
+        main: '#new-employees',
+        wrap: '#new-employees .slider-wrapper',
+        next: '.js-slider-btn-right.new-employees',
+        prev: '.js-slider-btn-left.new-employees',
         slidesToShow: 1,
         infinity: true,
         responsive: false,
